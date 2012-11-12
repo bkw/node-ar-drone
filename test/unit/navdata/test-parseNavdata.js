@@ -155,6 +155,6 @@ test('parseNavdata', {
 
     assert.throws(function() {
       parseNavdata(incompleteFixture)
-    }, /beyond/i);
+    }, /sourceEnd/i);
   },
 });
